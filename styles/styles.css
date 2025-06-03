@@ -13,6 +13,10 @@
         text-decoration: none;
     }
 
+    main{
+        background-color: #353535;
+    }
+
     a{
         color: white;
     }
@@ -64,8 +68,8 @@
         margin-bottom: 5px;
     }
 
-    #timeline>article,
-    #iconic-games>article {
+    #projects>article,
+    #certifications>article {
         text-align: center;
         border-radius: 8px;
         padding: .3em;
@@ -79,12 +83,12 @@
         background-color: #2e2e2e;
     }
 
-    #iconic-games {
+    #certifications {
         display: flex;
         flex-wrap: wrap;
     }
 
-    #iconic-games>article {
+    #certifications>article {
         line-height: 1.6;
         color: #333;
         flex: 1;
@@ -92,7 +96,7 @@
         height: auto;
     }
 
-    #iconic-games>article>p {
+    #certifications>article>p {
         margin: 1.43rem;
     }
 
@@ -101,8 +105,8 @@
         border-radius: 8px;
     }
 
-    #timeline>article:hover,
-    #iconic-games>article:hover {
+    #projects>article:hover,
+    #certifications>article:hover {
         color: white;
         transition: 0.3s;
         background-color: #5c5c5c;
@@ -138,11 +142,11 @@
         color: #a1bfdb;
     }
 
-    #iconic>h3 {
+    #certification>h3, #certification>p {
         margin: 0px 20vw;
     }
 
-    #overview {
+    #about {
         text-align: left;
         line-height: 1.6;
     }
@@ -158,6 +162,27 @@
         margin-bottom: 1rem;
     }
 
+    #background-image{
+        background-attachment: fixed;
+        background-image: url("../images/Arch_Rock.jpg"); 
+        background-repeat: no-repeat;
+        background-size: 2000px 1200px;
+    }
+
+    #background-image2{
+        background-attachment: fixed;
+        background-image: url("../images/software.jpeg"); 
+        background-repeat: no-repeat;
+        background-size: 2000px 1200px;
+    }
+
+    #background-image3{
+        background-attachment: fixed;
+        background-image: url("../images/email.jpg"); 
+        background-repeat: no-repeat;
+        background-size: 2000px 1200px;
+    }
+
     div>article {
         margin: 10px 0px;
     }
@@ -167,7 +192,7 @@
         align-items: center;
         text-align: center;
         color: white;
-        background-color: #135c86;
+        background-color: #2e2e2e;
     }
 }
 
@@ -219,20 +244,20 @@
         margin-bottom: 5px;
     }
 
-    #timeline>article,
-    #iconic-games>article {
+    #projects>article,
+    #certifications>article {
         text-align: center;
         border-radius: 8px;
         padding: .3em;
         background-color: #4aba91;
     }
 
-    #iconic-games {
+    #certifications {
         display: flex;
         flex-wrap: wrap;
     }
 
-    #iconic-games>article {
+    #certifications>article {
         line-height: 1.6;
         color: #333;
         flex: 45%;
@@ -240,7 +265,7 @@
         height: auto;
     }
 
-    #iconic-games>article>p {
+    #certifications>article>p {
         margin: 1.43rem;
     }
 
@@ -254,8 +279,8 @@
         border-radius: 8px;
     }
 
-    #timeline>article:hover,
-    #iconic-games>article:hover {
+    #projects>article:hover,
+    #certifications>article:hover {
         color: white;
         transition: 0.3s;
         background-color: #0e5135;
@@ -285,11 +310,11 @@
         text-align: left;
     }
 
-    #iconic>h3 {
+    #certification>h3 {
         margin: 0px 1vw;
     }
 
-    #overview {
+    #about {
         text-align: left;
         line-height: 1.6;
     }
@@ -372,21 +397,21 @@
         margin-bottom: 5px;
     }
 
-    #timeline>article,
-    #iconic-games>article {
+    #projects>article,
+    #certifications>article {
         text-align: center;
         border-radius: 8px;
         padding: .3em;
         background-color: #4aba91;
     }
 
-    #iconic-games {
+    #certifications {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
 
-    #iconic-games>article {
+    #certifications>article {
         line-height: 1.6;
         color: #333;
         flex: 45%;
@@ -394,7 +419,7 @@
         height: auto;
     }
 
-    #iconic-games>article>p {
+    #certifications>article>p {
         margin: 1.43rem;
     }
 
@@ -408,8 +433,8 @@
         border-radius: 8px;
     }
 
-    #timeline>article:hover,
-    #iconic-games>article:hover {
+    #projects>article:hover,
+    #certifications>article:hover {
         color: white;
         transition: 0.3s;
         background-color: #0e5135;
@@ -439,16 +464,16 @@
         text-align: left;
     }
 
-    #iconic>h3 {
+    #certification>h3 {
         margin: 0px 1vw;
     }
 
-    #overview {
+    #about {
         text-align: left;
         line-height: 1.6;
     }
 
-    #cultural-impact {
+    #contacts {
         line-height: 2rem;
     }
 
